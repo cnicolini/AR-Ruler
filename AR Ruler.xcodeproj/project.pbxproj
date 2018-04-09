@@ -56,10 +56,10 @@
 		A37436CF207A2C61008FCF82 /* AR Ruler */ = {
 			isa = PBXGroup;
 			children = (
+				A37436D6207A2C61008FCF82 /* Main.storyboard */,
+				A37436D4207A2C61008FCF82 /* ViewController.swift */,
 				A37436D0207A2C61008FCF82 /* AppDelegate.swift */,
 				A37436D2207A2C61008FCF82 /* art.scnassets */,
-				A37436D4207A2C61008FCF82 /* ViewController.swift */,
-				A37436D6207A2C61008FCF82 /* Main.storyboard */,
 				A37436D9207A2C62008FCF82 /* Assets.xcassets */,
 				A37436DB207A2C62008FCF82 /* LaunchScreen.storyboard */,
 				A37436DE207A2C62008FCF82 /* Info.plist */,
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolinihome.AR-Ruler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolinihome.AR-Ruler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
